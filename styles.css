@@ -28,6 +28,7 @@ body {
 
   background-image: url("./img/bg.png");
   background-size: contain;
+  padding: 2rem 1rem;
 
   display: flex;
   align-items: center;
@@ -40,7 +41,8 @@ body {
 }
 
 main {
-  width: 30rem;
+  width: 100%;
+  max-width: 30rem;
   border-radius: 1.5rem;
 
   border: .0625rem solid #2f3279;
@@ -53,7 +55,7 @@ form {
   display: flex;
   flex-direction: column;
 
-  padding: 3.5rem 4rem;
+  padding: 3rem;
 }
 
 label {
