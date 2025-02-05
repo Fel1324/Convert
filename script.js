@@ -54,7 +54,7 @@ function convertCurrency(amount, price, symbol){
     total = formartCurrencyBRL(total).replace("R$", "");
     
     // Exibe o resultado total.
-    result.textContent = `${total} reais`;
+    result.textContent = `${total} Reais`;
 
     // Aplica a classe que exibe o footer para mostrar o resultado.
     footer.classList.add("show-result");
